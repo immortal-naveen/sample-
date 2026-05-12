@@ -1,0 +1,90 @@
+body {
+            margin: 0;
+            font-family: Arial;
+        }
+
+        header {
+            background: black;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+        }
+        nav a:hover{
+            background-color: brown;
+            letter-spacing: 0.7rem;
+            padding: 10px;
+
+        }
+
+        .hero {
+            background: url('gym.webp')  center/cover;
+            height: 400px;
+            color: white;
+            text-align: center;
+            padding-top: 150px;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+        }
+
+        .section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .plans {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .card {
+            border: 1px solid yellow;
+            padding: 20px;
+            width: 25%;
+            background-image: linear-gradient(to top left,beige,purple);
+            transition: transform 1.5s linear;
+        }
+
+        footer {
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .card:hover{
+            transform: rotateY(180deg);
+        }
+        hr{
+            background-color: purple;
+            border: none;
+            height: 2px;
+        }
+        .qus{
+            position: relative;
+            left: 250px;
+            font-size: 1.3rem;
+        }
+        .fed{
+            position: relative;
+            left: 300px;
+        }
+        .fed p{
+            background-color: gray ;
+            height: 50px;
+            width: 50%;
+            color: black;
+            display: flex;
+            align-items: center;
+            transition: background-color 0.5s linear;
+        }
+        .fed p:hover{
+            background-color:rgb(172, 169, 169);
+            cursor: pointer;
+        }
